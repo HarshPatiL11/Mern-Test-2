@@ -1,0 +1,21 @@
+.NavBarMaindiv{
+    width: 100%;
+    background: rgb(221, 255, 0);
+    border: 1px solid;
+    color: white;
+}
+
+
+.Navlist{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 23px;
+    padding-right: 30px;
+}
+.Navimg{
+    padding-left: 10px;
+    left: 20px;
+    position: absolute;
+}

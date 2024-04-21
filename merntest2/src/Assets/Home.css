@@ -1,0 +1,26 @@
+.HOmeMdiv{
+    width: 100%;
+    height: 900px;
+    border: 1px solid red;
+    background: cyan;
+    color: darkblue;
+}
+
+.hsdiv{
+    height: 300px;
+    width: 100%;
+   
+  
+}
+
+.SDA{
+    background: burlywood;
+}
+
+.SDB{
+    background:teal;
+}
+
+.SDC{
+    background:rgb(201, 187, 58);
+}
