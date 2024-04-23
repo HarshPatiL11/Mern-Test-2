@@ -5,7 +5,7 @@ import Home from './Components/Home'
 import { Route, Routes } from 'react-router-dom';
 import About from './Components/About';
 import GetAxios from './Components/Getaxios';
-import PostAxios from './Components/PostAxios';
+import PostAxios from './Components/UpdateAxios';
 import Login from './Components/Login';
 
 function App() {

@@ -1,0 +1,100 @@
+.LRpageMain
+{
+    background: radial-gradient(circle, rgba(0,212,255,1) 0%, rgba(3,153,216,1) 33%, rgba(9,9,121,1) 90%, rgba(2,0,36,1) 100%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    font-family: cursive;
+}
+
+.ClickDiv{
+    position: relative;
+    top: 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.ClickDiv>label{
+    font-size: 29px;
+    text-align: center;
+    background:#2929fb35 ;
+    border: #2929fb solid 2px;
+    
+    padding: 8px;
+    width: 148px;
+    height: 50px;
+    
+}
+.ClickDiv>label>.a1{
+    border-radius:20px 0 0 0;
+}
+.ClickDiv>label>.a2{
+    border-radius: 0 20px 0 0;
+}
+.ClickDiv>label:hover{
+    background: #044b69c8;
+}
+
+.selected
+{
+    background: #00d4ff;
+}
+  
+
+.LRContain{
+   
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginDIV{
+    background:#2929fb35 ;
+    border: #2929fb,solid,2px;
+    text-align: center;
+    height: 400px;
+    width: 330px;
+    border: #2929fb solid 3px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.loginDIV>h1{
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+}
+.regiDiv{
+    background:#2929fb35 ;
+    text-align: center;
+    border: #2929fb solid 3px;
+    height: 400px;
+    width: 330px;
+    border-radius: 0px 0px 20px 20px;
+    
+}
+.regiDiv>h1{
+    margin-bottom: 11px;
+    padding-bottom: 5px;
+}
+.regiDiv>h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 8px 0px 0px 0px;
+}
+
+.hidden{
+    display: none;
+}
+
+button{
+    border: 2px lightblue solid;
+    margin-top: 22px;
+    width: 81px;
+}
